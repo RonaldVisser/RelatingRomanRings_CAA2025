@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this presentationo, please cite it as below."
+authors:
+  - family-names: Visser
+    given-names: Ronald M.
+    orcid: "https://orcid.org/0000-0001-6966-1729"
+title: "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks"
+license: CC-BY-4.0
+date-released: 2025-05-05
+url: "https://github.com/RonaldVisser/RelatingRomanRings_CAA2025"
+
