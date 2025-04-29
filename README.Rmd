@@ -1,8 +1,11 @@
 ---
 bibliography: references.bib
+output: github_document
 ---
 
 # Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks
+
+Author: Ronald Visser
 
 Presentation presented at the CAA 2025 in Athens (<https://2025.caaconference.org/>)
 
