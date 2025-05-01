@@ -45,7 +45,7 @@ series or chronologies and a strong statistical relation between series
 assumes similar growth patterns and therefore a similar provenance. As
 argued elsewhere (Visser 2021), methods such as clustering are not
 suitable for this, due to the varying temporal and spatial distribution
-of the sometimes sparse data. The use a network for studying the
+of the sometimes sparse data. The use of a network for studying the
 relations between a tree-rings series for determining the provenance
 solves many issues and makes the method also more transparent. Networks
 are created by using the pair-wise similarity of tree-ring patterns to
