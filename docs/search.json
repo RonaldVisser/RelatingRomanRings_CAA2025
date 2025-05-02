@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "RelatingRomanRings_CAA2025.html",
+    "href": "RelatingRomanRings_CAA2025.html",
+    "title": "RelatingRomanRings_CAA2025",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Content",
+    "text": "Content\n\nRoman wood and timber\nInterdisicplinary data\nDendroprovenance\nNetwork analysis of tree-ring data\nArchaeological interpretation\nR-package: dendroNetwork\nConclusions"
+  },
+  {
+    "objectID": "index.html#wood-primary-resource",
+    "href": "index.html#wood-primary-resource",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Wood: primary resource",
+    "text": "Wood: primary resource\n\n\n\n\nGrowing in woodlands\nPrimary (renewable) resource, for e.g.\n\nConstruction\nTransport\nHeating\nTools\n\n\n\n\n\n\n(Source: Visser 2025, fig. 04.05)\n\n\n\n\n\n\n(Source: Visser 2025, fig. 06.07)"
+  },
+  {
+    "objectID": "index.html#roman-wood-and-timber",
+    "href": "index.html#roman-wood-and-timber",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Roman wood and timber",
+    "text": "Roman wood and timber\n\n\nProblem definition\n\nMany finds of wood from Roman period\nArchaeological context known\nProvenance of wood unknown\n\nMain research question\n\nHow was the procurement of wood organised in the German provinces of the Roman empire during first four centuries AD?\n\n\n\n\n\n(Source: Visser 2025, fig. 01.01)"
+  },
+  {
+    "objectID": "index.html#data-sources",
+    "href": "index.html#data-sources",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Data sources",
+    "text": "Data sources\n\n(Source: Visser 2025, fig. 03.02)"
+  },
+  {
+    "objectID": "index.html#dendrochronological-data-bias",
+    "href": "index.html#dendrochronological-data-bias",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Dendrochronological data: “bias”",
+    "text": "Dendrochronological data: “bias”\n\n\n\n\n\n\n\n\n\n\n(Source right figure: Visser 2025, fig. 03.17) (Source left figure: Visser 2025, fig. 03.10)\n\nSparse big data"
+  },
+  {
+    "objectID": "index.html#research-intensity-netherlands",
+    "href": "index.html#research-intensity-netherlands",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Research intensity (Netherlands)",
+    "text": "Research intensity (Netherlands)\n\n(Source: Visser 2025, fig. 03.19)"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "",
+    "text": "Where did the wood come from?"
+  },
+  {
+    "objectID": "index.html#tree-ring-formation",
+    "href": "index.html#tree-ring-formation",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Tree-ring formation",
+    "text": "Tree-ring formation\n\n\n\nAnnual ring of wood around tree\nTree-ring width depends on\n\nSoil\n(micro)Climate\nLocal factors\nDisturbance\n\nGrowth season: spring and summer"
+  },
+  {
+    "objectID": "index.html#life-history-of-archaeological-wood",
+    "href": "index.html#life-history-of-archaeological-wood",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Life history of archaeological wood",
+    "text": "Life history of archaeological wood\n\n(Source: Visser 2025, fig. 03.05)"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "",
+    "text": "Where did the wood come from?"
+  },
+  {
+    "objectID": "index.html#dendroprovenance",
+    "href": "index.html#dendroprovenance",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Dendroprovenance",
+    "text": "Dendroprovenance\n\n\nProvenance of wood based on comparison tree-ring curves with (regional) chronologies\nProblems\n\nOften based on single measure\nComparison individual curves\nComplex with large datasets\nClustering problems common interval\n\nSolution: network analyses\n\n\n\n\n(Source: Visser 2025, fig. 08.10)"
+  },
+  {
+    "objectID": "index.html#dendrochronological-networks",
+    "href": "index.html#dendrochronological-networks",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Dendrochronological networks",
+    "text": "Dendrochronological networks\n\n\n\nNodes: Site chronologies (tree-ring data)\nEdges: statistical similarity\n\nCorrelation (r ≥ 0,5)\nOverlapping tree rings (n ≥ 50)\nSGC (improved statistic, formerly Gleichläufigkeit: ≥ 70% (see Visser 2021a))\nProbability of exceedence (p <= 0.0001)\n\n\n\n\n\n\n(Source: Visser 2025, fig. 09.03)"
+  },
+  {
+    "objectID": "index.html#provenance-in-network",
+    "href": "index.html#provenance-in-network",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Provenance in network",
+    "text": "Provenance in network\n\n\n\nCloser in network = similar growth conditions\nCommunities share growth conditions\nAssess spatial distances\nContexts\n\n\n(Figure source: Visser 2025, fig. 09.03)"
+  },
+  {
+    "objectID": "index.html#provenance-and-transported-distances",
+    "href": "index.html#provenance-and-transported-distances",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Provenance and transported distances",
+    "text": "Provenance and transported distances\n\n\n\n\n\n(Source: Visser 2024, fig. 2)\n\n\n\n\n\n\n(Source: Visser 2024, fig. 3)"
+  },
+  {
+    "objectID": "index.html#provenance-of-wood-and-the-roman-economy",
+    "href": "index.html#provenance-of-wood-and-the-roman-economy",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Provenance of wood and the Roman economy",
+    "text": "Provenance of wood and the Roman economy\n\n(Source: Visser 2025, fig. 10.04)"
+  },
+  {
+    "objectID": "index.html#open-science-in-research",
+    "href": "index.html#open-science-in-research",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Open Science in research",
+    "text": "Open Science in research\n\n\nPublications: Open Access\n(Visser 2021b; Visser and Vorst 2022b)\nScripts and data: Open\n(Visser and Vorst 2022a; Visser 2022)\nEverything open and accessible\n\nR-Scripts available\nComments available\nHard to use for others\n\n\n\n\n\n\n(Source: Visser 2025, fig. 03.03, based on https://www.unesco.org/en/open-science/about)"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "",
+    "text": "Building an R package"
+  },
+  {
+    "objectID": "index.html#package-do-we-need-another",
+    "href": "index.html#package-do-we-need-another",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Package: do we need another?",
+    "text": "Package: do we need another?\n\n\n\n\n\n\n\nExisting packages for dendrochronology.\n\n\n\n\n\n\ndendroNetwork and its position in relation to other dendrochronological packages."
+  },
+  {
+    "objectID": "index.html#workflow-idea-behind-package-use",
+    "href": "index.html#workflow-idea-behind-package-use",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Workflow idea behind package use",
+    "text": "Workflow idea behind package use"
+  },
+  {
+    "objectID": "index.html#ropensci",
+    "href": "index.html#ropensci",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "rOpenSci",
+    "text": "rOpenSci\n\n\nCreating technical infrastructure in the form of carefully vetted, staff and community-contributed R software tools that lower barriers to working with scientific data sources on the web\nMaking the right data, tools and best practices more discoverable\nCreating social infrastructure through a welcoming and diverse community\nPromoting advocacy for a culture of data sharing and reusable software\nBuilding capacity of software users and developers and fostering a sense of pride in their work\n\nhttps://ropensci.org/"
+  },
+  {
+    "objectID": "index.html#package",
+    "href": "index.html#package",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Package",
+    "text": "Package\n\nCreating functions\n\nConverting scripts to functions\nNaming functions (snake_case, snake_case, etc)\nSimple programming (loops, variables, etc)\n\nCreating documentation\n\nManual pages\nVignettes\n\nCreating tests (input, results, etc)\nContinous integration: https://devguide.ropensci.org/pkg_ci.html\n\nusethis package\nGithub Actions"
+  },
+  {
+    "objectID": "index.html#package-review",
+    "href": "index.html#package-review",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Package: Review",
+    "text": "Package: Review\n\nGithub issue: https://github.com/ropensci/software-review/\nDevelopers test your package\nFeedback\nImprovement of code\nImprovement of documentation\nOpen peer review"
+  },
+  {
+    "objectID": "index.html#package-dissemination",
+    "href": "index.html#package-dissemination",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Package: Dissemination",
+    "text": "Package: Dissemination\n\nSource: https://github.com/ropensci/dendroNetwork/\nDocumentation: https://docs.ropensci.org/dendroNetwork/\nCRAN: https://cran.r-project.org/package=dendroNetwork\nBlog: https://ropensci.org/blog/2024/06/06/from-scripts-to-package/\nSocial media: Mastodon, LinkedIn, Facebook.\nPresent at CAA2025 in Athens\nWrite paper (still to publish)"
+  },
+  {
+    "objectID": "index.html#conclusions-recommendations",
+    "href": "index.html#conclusions-recommendations",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "Conclusions + recommendations",
+    "text": "Conclusions + recommendations\n\nNetworks and provenance\n\nDataset with temporal and spatial variance: sparse big data\nNetwork deals with uneven distribution\nProvenance estimation transparent and reproducible\nLocal provenance of wood normal\n\nCreating a package is a challenge, but fun!\n\nBe nice, and share and document your code!\nDevelop functions not scripts.\nDevelop a package from the start, especially when devising a new method(ology).\nRead the documentation (or: RTFM)\nSubmit to rOpenSci and enjoy!"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks",
+    "section": "References",
+    "text": "References\nSource of these slides: https://github.com/RonaldVisser/RelatingRomanRings_CAA2025\n\n\n\nRelating Roman Rings presented at CAA2025 in Athens (2025-05-08)\n\n\n\nVisser, Ronald M. 2021a. “On the Similarity of Tree-Ring Patterns: Assessing the Influence of Semi-Synchronous Growth Changes on the Gleichläufigkeitskoeffizient for Big Tree-Ring Data Sets.” Archaeometry 63 (1): 204–15. https://doi.org/10.1111/arcm.12600.\n\n\n———. 2021b. “Dendrochronological Provenance Patterns. Network Analysis of Tree-Ring Material Reveals Spatial and Economic Relations of Roman Timber in the Continental North-Western Provinces.” Journal of Computer Applications in Archaeology 4 (1): 230–53. https://doi.org/10.5334/jcaa.79.\n\n\n———. 2022. “Dendrochronological Provenance Patterns. Code and Data of Network Analysis of Tree-Ring Material.” https://doi.org/10.5281/zenodo.10200361.\n\n\n———. 2024. “Securing Transport of Wood over Water on the Roman Rhine.” In, edited by H. van Enckevort, Mark Driessen, E. P. Graafstal, Tom Hazenberg, Tatiana Ivleva, and Carol van Driel-Murray, 135–41. Leiden: Sidestone Press. https://doi.org/10.59641/mm723py.\n\n\n———. 2025. “Relating Roman Rings. An Interdisciplinary Study Using Archaeology, Data Science and Tree Rings to Understand Timber Provision in the German Provinces of the Roman Empire.” PhD thesis, Amsterdam. https://doi.org/10.5463/thesis.1062.\n\n\nVisser, Ronald M., and Yardeni Vorst. 2022a. “Analyses, Data and Figures Related to: \"Connecting Ships: Using Dendrochronological Network Analysis to Determine the Wood Provenance of Roman-Period River Barges Found in the Lower Rhine Region and to Visualise Patterns of Wood Use\".” https://doi.org/10.5281/zenodo.7243539.\n\n\n———. 2022b. “Connecting Ships: Using Dendrochronological Network Analysis to Determine the Wood Provenance of Roman-Period River Barges Found in the Lower Rhine Region and Visualise Wood Use Patterns.” International Journal of Wood Culture 3 (1-3): 123–51. https://doi.org/10.1163/27723194-bja10014."
+  }
+]
