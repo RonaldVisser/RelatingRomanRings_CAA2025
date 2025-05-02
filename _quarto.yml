@@ -1,6 +1,5 @@
 project:
   title: "RelatingRomanRings_CAA2025"
-  type: website
   output-dir: docs
 
 editor: visual
