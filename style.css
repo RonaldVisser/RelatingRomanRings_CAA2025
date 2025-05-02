@@ -1,0 +1,27 @@
+.reveal .slide-logo {
+  height: 90px !important;
+  width: 180px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+.title {
+  font-size: 75px !important;
+  color: black !important;
+}
+
+.quarto-title-author-name {
+  font-size: 50px;
+  color: red !important;
+}
+
+.blank-slide h1 {
+  font-size: 65px;
+  line-height: 1.4;
+  letter-spacing: -3px;
+  top: 50%;
+  color: black;
+}
+
+.caption{
+  text-align: center;
+}

@@ -1,0 +1,361 @@
+---
+title: "Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks"
+author: "Ronald M. Visser"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: references.bib
+format:
+  revealjs:
+    logo: images/Logo_Saxion_UAS_RGB.png
+    footer: "Relating Roman Rings presented at CAA2025 in Athens (2025-05-08)"
+    smaller: true
+    title-slide-attributes:
+      data-background-image: "images/00_Front_no_text_20250502.png"
+      data-background-opacity: "0.4"
+    css: style.css
+---
+
+## Content
+
+-   Roman wood and timber
+-   Interdisicplinary data
+-   Dendroprovenance
+-   Network analysis of tree-ring data
+-   Archaeological interpretation
+-   R-package: dendroNetwork
+-   Conclusions
+
+## Wood: primary resource
+
+::: columns
+::: {.column width="60%"}
+::: {style="font-size: 90%;"}
+-   Growing in woodlands
+-   Primary (renewable) resource, for e.g.
+    -   Construction
+    -   Transport
+    -   Heating
+    -   Tools
+:::
+
+![[Source: @visser2025, Figure 04.05]](images/Figure_04.05_CoppicedOak_Laarsenberg(NL)_new.JPG){width="50%" fig-align="left" cap-skip="0pt"}
+:::
+
+::: {.column width="40%"}
+![[Source: @visser2025, Figure 06.07]](images/Figure_06.07_Post_ForumHadriani.JPG)
+:::
+:::
+
+## Roman wood and timber
+
+::: columns
+::: {.column width="60%"}
+#### Problem definition
+
+-   Many finds of wood from Roman period
+-   Archaeological context known
+-   Provenance of wood unknown
+
+#### Main research question
+
+-   How was the procurement of wood organised in the German provinces of the Roman empire during first four centuries AD?
+:::
+
+::: {.column width="40%"}
+![[Source: @visser2025, Figure 01.01]](images/Figure_01.01_Research_area_print.png)
+:::
+:::
+
+## Data sources
+
+![[Source: @visser2025, Figure 03.02]](images/Figure_03.02_Data_sources.png){fig-align="center"}
+
+## Dendrochronological data: "bias"
+
+::: columns
+::: {.column width="70%"}
+![](images/Figure_03.10_Map_NumberOfSamples.png){width="65%" fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![](images/Figure_03.17_number_tree_rings_year.png)
+
+::: {style="font-size: 60%;"}
+[Source right figure: @visser2025, Figure 03.17] [Source left figure: @visser2025, Figure 03.10]
+:::
+
+Sparse big data
+:::
+:::
+
+## Research intensity (Netherlands)
+
+![[Source: @visser2025, Figure 03.19]](images/Figure_03.19_tree_ring_research_vs_arch_research_nl.png)
+
+##  {.blank-slide .flexbox .vcenter}
+
+<h1>Where did the wood come from?</h1>
+
+## Tree-ring formation
+
+::: columns
+::: {.column width="60%"}
+-   Annual ring of wood around tree
+-   Tree-ring width depends on
+    -   Soil
+    -   (micro)Climate
+    -   Local factors
+    -   Disturbance
+-   Growth season: spring and summer
+:::
+
+::: {.column width="40%"}
+![](images/treering_formation.png)
+:::
+:::
+
+## Life history of archaeological wood
+
+![[Source: @visser2025, Figure 03.05]](images/Figure_03.05_Tree_life_history_2022.png)
+
+##  {.blank-slide .flexbox .vcenter background-image="images/00_Front_no_text_20250502.png" background-opacity="0.4"}
+
+<h1>Where did the wood come from?</h1>
+
+## Dendroprovenance
+
+::: columns
+::: {.column width="60%"}
+Provenance of wood based on comparison tree-ring curves with (regional) chronologies
+
+### Problems
+
+-   Often based on single measure
+-   Comparison individual curves
+-   Complex with large datasets
+-   Clustering problems common interval
+
+### Solution: network analyses
+:::
+
+::: {.column width="40%"}
+![[Source: @visser2025, Figure 08.10]](images/Figure_08.10_network_4_means_GN_legend.png)
+:::
+:::
+
+## Dendrochronological networks
+
+::: columns
+::: {.column width="70%"}
+-   Nodes: Site chronologies (tree-ring data)
+-   Edges: statistical similarity
+    -   Correlation (r ≥ 0,5)
+    -   Overlapping tree rings (n ≥ 50)
+    -   SGC (improved statistic, formerly Gleichläufigkeit: ≥ 70% [see @visser2021a])
+    -   Probability of exceedence (p \<= 0.0001)
+:::
+
+::: {.column width="30%"}
+![[Source: @visser2025, Figure 09.03]](images/Figure_09.03_NetworkExplain.png)
+:::
+:::
+
+## Provenance in network
+
+::: columns
+::: {.column width="40%"}
+-   Closer in network = similar growth conditions
+-   Communities share growth conditions
+-   Assess spatial distances
+-   Contexts
+
+::: {style="font-size: 60%;"}
+[Figure source: @visser2025, Figure 09.03]
+:::
+:::
+
+::: {.column width="60%"}
+![](images/Figure_08.13_network_4_means_GN_legend_provenance.png)
+:::
+:::
+
+## Provenance and transported distances
+
+::: columns
+::: {.column width="70%"}
+![[Source: @visser2024a, Figure 2]](images/Figure_2_Network_means_1_transported_with_legend.jpg)
+:::
+::: {.column width="30%"}
+![[Source: @visser2024a, Figure 3]](images/Figure_3_transported_bar.jpg)
+:::
+:::
+
+
+## Provenance of wood and the Roman economy
+
+![[Source: @visser2025, Figure 10.04]](images/Figure_10.04_TimberEconomy_Models.png)
+
+## Open Science in research
+
+::: columns
+::: {.column width="70%"}
+### Publications: Open Access
+
+[@visser2021; @visser2022]
+
+### Scripts and data: Open
+
+[@visser2022a; @visser2022b]
+
+### Everything open and accessible
+
+-   R-Scripts available
+-   Comments available
+-   Hard to use for others
+:::
+
+::: {.column width="30%"}
+::: {style="font-size: 60%;"}
+![[Source: @visser2025, Figure 03.03, based on <https://www.unesco.org/en/open-science/about>]](images/Figure_03.03_UNESCO-Open_science-pillars.png)
+:::
+:::
+:::
+
+##  {.blank-slide .flexbox .vcenter background-image="images/00_Front_no_text_20250502.png" background-opacity="0.4"}
+
+<h1>Building an R package</h1>
+
+## Package: do we need another?
+
+::: columns
+::: {.column width="50%"}
+```{r, packages-network, echo=FALSE}
+par(mar=c(0,0,0,0)+.1)
+g_dendro_packages <- igraph::graph( c("dplR", "dfoliatR", "tidyverse", "dfoliatR",
+                     "dplR", "dendroTools", "tidyverse", "dendroTools",
+                     "dplR", "detrendeR", "tidyverse", "dplR",
+                     "dplR", "fellingdateR", "tidyverse", "fellingdateR",
+                     "dplR", "measuRing", "measuRing", "MtreeRing",
+                     "dplR", "MtreeRing", "tidyverse", "MtreeRing",
+                     "dplR", "pointRes", "tidyverse", "pointRes",
+                     "dplR", "RingdateR", "tidyverse", "RingdateR",
+                     "dplR", "wiad", "tidyverse", "wiad",
+                     "dplR", "TRADER", "dplR", "xRing", "detrendeR", "xRing", "tidyverse","dendroSync", "tidyverse", "burnr", "tidyverse", "treeclim"))
+igraph::plot.igraph(g_dendro_packages, edge.arrow.size=.1, vertex.color="deepskyblue", 
+     vertex.size=15, vertex.label.color="darkslategrey", vertex.label.family="sans", vertex.font.size=5,
+     vertex.label.cex=0.8, vertex.label.dist=2, vertex.shape="sphere")
+```
+
+Existing packages for dendrochronology.
+:::
+
+::: {.column width="50%"}
+```{r, dendroNetwork-packages, echo=FALSE}
+par(mar=c(0,0,0,0)+.1)
+g_dendroNetwork <- igraph::graph( c("dplR", "dendroNetwork", "tidyverse", "dendroNetwork", "igraph", "dendroNetwork", "igraph", "tidyverse", "tidyverse", "igraph"))
+igraph::plot.igraph(g_dendroNetwork, edge.arrow.size=.5, vertex.color="deepskyblue", vertex.shape="sphere", vertex.size=15,vertex.label.family="sans", vertex.label.color="darkslategrey", vertex.label.cex=0.8, vertex.label.dist=2)
+```
+
+dendroNetwork and its position in relation to other dendrochronological packages.
+:::
+:::
+
+## Workflow idea behind package use
+
+```{r, workflow, echo=FALSE }
+DiagrammeR::grViz("
+digraph {
+  # graph attributes
+  graph [overlap = true]
+  # node attributes
+  node [shape = box,
+        fontname = Helvetica,
+        color = gray]
+  # edge attributes
+  edge [color = black]
+  # node statements
+  1 [label = 'Load data']
+  2 [label = 'Create similarity table']
+  3 [label = 'Create network using default settings']
+  4 [label = 'Detect communities using the \n Girvan-Newman algorithm']
+  5 [label = 'Detect communities using the \n Clique Percolation Method']
+  6 [label = 'Visualization in Cytoscape']
+  # edge statements
+  1 ->  2
+  2 -> 3
+  3 -> 4
+  3 -> 5
+  4 -> 6
+  5 -> 6
+  }
+")
+```
+
+## rOpenSci
+
+::: {style="font-size: 80%;"}
+-   Creating technical infrastructure in the form of carefully vetted, staff and community-contributed R software tools that lower barriers to working with scientific data sources on the web
+-   Making the right data, tools and best practices more discoverable
+-   Creating social infrastructure through a welcoming and diverse community
+-   Promoting advocacy for a culture of data sharing and reusable software
+-   Building capacity of software users and developers and fostering a sense of pride in their work
+
+<https://ropensci.org/>
+:::
+
+![](images/rOpenSci_icon_lettering_color.png){width="50%"}
+
+## Package
+
+-   Creating functions
+    -   Converting scripts to functions
+    -   Naming functions (snake_case, snake_case, etc)
+    -   Simple programming (loops, variables, etc)
+-   Creating documentation
+    -   Manual pages
+    -   Vignettes
+-   Creating tests (input, results, etc)
+-   Continous integration: <https://devguide.ropensci.org/pkg_ci.html>
+    -   usethis package
+    -   Github Actions
+
+## Package: Review
+
+-   Github issue: <https://github.com/ropensci/software-review/>
+-   Developers test your package
+-   Feedback
+-   Improvement of code
+-   Improvement of documentation
+-   Open peer review
+
+## Package: Dissemination
+
+-   Source: <https://github.com/ropensci/dendroNetwork/>
+-   Documentation: <https://docs.ropensci.org/dendroNetwork/>
+-   CRAN: <https://cran.r-project.org/package=dendroNetwork>
+-   Blog: <https://ropensci.org/blog/2024/06/06/from-scripts-to-package/>
+-   Social media: Mastodon, LinkedIn, Facebook.
+-   Present at CAA2025 in Athens
+-   Write paper (still to publish)
+
+## Conclusions + recommendations
+
+::: {style="font-size: 90%;"}
+### Networks and provenance
+
+-   Dataset with temporal and spatial variance: sparse big data
+-   Network deals with uneven distribution
+-   Provenance estimation transparent and reproducible
+-   Local provenance of wood normal
+
+### Creating a package is a challenge, but fun!
+
+-   Be nice, and share and document your code!
+-   Develop functions not scripts.
+-   Develop a package from the start, especially when devising a new method(ology).
+-   Read the documentation (or: RTFM)
+-   Submit to rOpenSci and enjoy!
+:::
+
+## References {style="font-size: 50%;"}
+
+Source of these slides: <https://github.com/RonaldVisser/RelatingRomanRings_CAA2025>
