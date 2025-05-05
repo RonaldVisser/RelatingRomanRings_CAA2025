@@ -396,3 +396,4 @@ digraph {
 ## References {style="font-size: 50%;"}
 
 Source of these slides: <https://github.com/RonaldVisser/RelatingRomanRings_CAA2025>
+<https://doi.org/10.5281/zenodo.15342407>
