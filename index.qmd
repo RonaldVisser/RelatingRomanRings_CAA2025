@@ -16,8 +16,8 @@ format:
 
 ## Content
 
--   Roman wood and timber
--   Interdisicplinary data
+-   Wood and the Romans
+-   Interdisicplinary data sources
 -   Dendroprovenance
 -   Network analysis of tree-ring data
 -   Archaeological interpretation
@@ -82,8 +82,11 @@ format:
 ::: {style="font-size: 60%;"}
 [Source right figure: @visser2025, Figure 03.17] [Source left figure: @visser2025, Figure 03.10]
 :::
+Sparse big data:
 
-Sparse big data
+- Mainly oak
+- Spatial
+- Temporal
 :::
 :::
 
@@ -91,9 +94,11 @@ Sparse big data
 
 ![[Source: @visser2025, Figure 03.19]](images/Figure_03.19_tree_ring_research_vs_arch_research_nl.png)
 
-##  {.blank-slide .flexbox .vcenter}
+## {background-image="images/00_Front_no_text_20250502.png" background-opacity=0.4}
 
-<h1>Where did the wood come from?</h1>
+::: {.center-y style="font-size: 300%;"}
+Where did the wood come from?
+:::
 
 ## Tree-ring formation
 
@@ -117,9 +122,11 @@ Sparse big data
 
 ![[Source: @visser2025, Figure 03.05]](images/Figure_03.05_Tree_life_history_2022.png)
 
-##  {.blank-slide .flexbox .vcenter background-image="images/00_Front_no_text_20250502.png" background-opacity="0.4"}
+## {background-image="images/00_Front_no_text_20250502.png" background-opacity=0.4}
 
-<h1>Where did the wood come from?</h1>
+::: {.center-y style="font-size: 300%;"}
+Where did the wood come from?
+:::
 
 ## Dendroprovenance
 
@@ -210,7 +217,8 @@ Provenance of wood based on comparison tree-ring curves with (regional) chronolo
 
 -   R-Scripts available
 -   Comments available
--   Hard to use for others
+
+### Hard to use for others(!)
 :::
 
 ::: {.column width="30%"}
@@ -220,9 +228,10 @@ Provenance of wood based on comparison tree-ring curves with (regional) chronolo
 :::
 :::
 
-##  {.blank-slide .flexbox .vcenter background-image="images/00_Front_no_text_20250502.png" background-opacity="0.4"}
-
-<h1>Building an R package</h1>
+## {background-image="images/00_Front_no_text_20250502.png" background-opacity=0.4}
+::: {.center-y style="font-size: 300%;"}
+Building an R package
+:::
 
 ## Package: do we need another?
 
@@ -305,6 +314,8 @@ digraph {
 ![](images/rOpenSci_icon_lettering_color.png){width="50%"}
 
 ## Package
+::: columns
+::: {.column width="80%"}
 
 -   Creating functions
     -   Converting scripts to functions
@@ -318,7 +329,16 @@ digraph {
     -   usethis package
     -   Github Actions
 
+:::
+::: {.column width="20%"}
+![](images/dendroNetwork_hexsticker.png)
+:::
+:::
+
+
 ## Package: Review
+::: columns
+::: {.column width="80%"}
 
 -   Github issue: <https://github.com/ropensci/software-review/>
 -   Developers test your package
@@ -326,8 +346,17 @@ digraph {
 -   Improvement of code
 -   Improvement of documentation
 -   Open peer review
+:::
+::: {.column width="20%"}
+![](images/dendroNetwork_hexsticker.png)
+:::
+:::
+
 
 ## Package: Dissemination
+
+::: columns
+::: {.column width="80%"}
 
 -   Source: <https://github.com/ropensci/dendroNetwork/>
 -   Documentation: <https://docs.ropensci.org/dendroNetwork/>
@@ -337,6 +366,13 @@ digraph {
 -   Present at CAA2025 in Athens
 -   Write paper (still to publish)
 
+:::
+::: {.column width="20%"}
+![](images/dendroNetwork_hexsticker.png)
+:::
+:::
+
+
 ## Conclusions + recommendations
 
 ::: {style="font-size: 90%;"}
@@ -345,7 +381,8 @@ digraph {
 -   Dataset with temporal and spatial variance: sparse big data
 -   Network deals with uneven distribution
 -   Provenance estimation transparent and reproducible
--   Local provenance of wood normal
+-   Normal: local provenance of wood (oak)
+-   Special: long distance transport of wood
 
 ### Creating a package is a challenge, but fun!
 

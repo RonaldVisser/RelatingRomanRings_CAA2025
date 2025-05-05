@@ -351,14 +351,14 @@
 <section id="title-slide" data-background-image="images/00_Front_no_text_20250502.png" data-background-opacity="0.4" class="center">
   <h1 class="title">Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks</h1>
   <p class="author">Ronald M. Visser</p>
-  <p class="date">02 May, 2025</p>
+  <p class="date">05 May, 2025</p>
 </section>
 
 <section id="content" class="slide level2">
 <h2>Content</h2>
 <ul>
-<li>Roman wood and timber</li>
-<li>Interdisicplinary data</li>
+<li>Wood and the Romans</li>
+<li>Interdisicplinary data sources</li>
 <li>Dendroprovenance</li>
 <li>Network analysis of tree-ring data</li>
 <li>Archaeological interpretation</li>
@@ -440,7 +440,12 @@
 <div style="font-size: 60%;">
 <p><span class="citation" data-cites="visser2025">(Source right figure: <a href="#/references" role="doc-biblioref" onclick="">Visser 2025, fig. 03.17</a>)</span> <span class="citation" data-cites="visser2025">(Source left figure: <a href="#/references" role="doc-biblioref" onclick="">Visser 2025, fig. 03.10</a>)</span></p>
 </div>
-<p>Sparse big data</p>
+<p>Sparse big data:</p>
+<ul>
+<li>Mainly oak</li>
+<li>Spatial</li>
+<li>Temporal</li>
+</ul>
 </div>
 </div>
 </section>
@@ -448,11 +453,11 @@
 <h2>Research intensity (Netherlands)</h2>
 
 <img data-src="images/Figure_03.19_tree_ring_research_vs_arch_research_nl.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="visser2025">(Source: <a href="#/references" role="doc-biblioref" onclick="">Visser 2025, fig. 03.19</a>)</span></p></section>
-<section id="section" class="slide level2 blank-slide flexbox vcenter">
+<section id="section" class="slide level2" data-background-image="images/00_Front_no_text_20250502.png" data-background-opacity="0.4">
 <h2></h2>
-<h1>
-Where did the wood come from?
-</h1>
+<div class="center-y" style="font-size: 300%;">
+<p>Where did the wood come from?</p>
+</div>
 </section>
 <section id="tree-ring-formation" class="slide level2">
 <h2>Tree-ring formation</h2>
@@ -478,11 +483,11 @@ Where did the wood come from?
 <h2>Life history of archaeological wood</h2>
 
 <img data-src="images/Figure_03.05_Tree_life_history_2022.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="visser2025">(Source: <a href="#/references" role="doc-biblioref" onclick="">Visser 2025, fig. 03.05</a>)</span></p></section>
-<section id="section-1" class="slide level2 blank-slide flexbox vcenter" data-background-image="images/00_Front_no_text_20250502.png" data-background-opacity="0.4">
+<section id="section-1" class="slide level2" data-background-image="images/00_Front_no_text_20250502.png" data-background-opacity="0.4">
 <h2></h2>
-<h1>
-Where did the wood come from?
-</h1>
+<div class="center-y" style="font-size: 300%;">
+<p>Where did the wood come from?</p>
+</div>
 </section>
 <section id="dendroprovenance" class="slide level2">
 <h2>Dendroprovenance</h2>
@@ -585,8 +590,8 @@ Where did the wood come from?
 <ul>
 <li>R-Scripts available</li>
 <li>Comments available</li>
-<li>Hard to use for others</li>
 </ul>
+<h3 id="hard-to-use-for-others">Hard to use for others(!)</h3>
 </div><div class="column" style="width:30%;">
 <div style="font-size: 60%;">
 <div class="quarto-figure quarto-figure-center">
@@ -599,11 +604,11 @@ Where did the wood come from?
 </div>
 </div>
 </section>
-<section id="section-2" class="slide level2 blank-slide flexbox vcenter" data-background-image="images/00_Front_no_text_20250502.png" data-background-opacity="0.4">
+<section id="section-2" class="slide level2" data-background-image="images/00_Front_no_text_20250502.png" data-background-opacity="0.4">
 <h2></h2>
-<h1>
-Building an R package
-</h1>
+<div class="center-y" style="font-size: 300%;">
+<p>Building an R package</p>
+</div>
 </section>
 <section id="package-do-we-need-another" class="slide level2">
 <h2>Package: do we need another?</h2>
@@ -630,8 +635,8 @@ Building an R package
 <div class="cell">
 <div class="cell-output-display">
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-216a57641843166b9ddf" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-216a57641843166b9ddf">{"x":{"diagram":"\ndigraph {\n  # graph attributes\n  graph [overlap = true]\n  # node attributes\n  node [shape = box,\n        fontname = Helvetica,\n        color = gray]\n  # edge attributes\n  edge [color = black]\n  # node statements\n  1 [label = \"Load data\"]\n  2 [label = \"Create similarity table\"]\n  3 [label = \"Create network using default settings\"]\n  4 [label = \"Detect communities using the \n Girvan-Newman algorithm\"]\n  5 [label = \"Detect communities using the \n Clique Percolation Method\"]\n  6 [label = \"Visualization in Cytoscape\"]\n  # edge statements\n  1 ->  2\n  2 -> 3\n  3 -> 4\n  3 -> 5\n  4 -> 6\n  5 -> 6\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-774c7b1d4002d94d9dab" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-774c7b1d4002d94d9dab">{"x":{"diagram":"\ndigraph {\n  # graph attributes\n  graph [overlap = true]\n  # node attributes\n  node [shape = box,\n        fontname = Helvetica,\n        color = gray]\n  # edge attributes\n  edge [color = black]\n  # node statements\n  1 [label = \"Load data\"]\n  2 [label = \"Create similarity table\"]\n  3 [label = \"Create network using default settings\"]\n  4 [label = \"Detect communities using the \n Girvan-Newman algorithm\"]\n  5 [label = \"Detect communities using the \n Clique Percolation Method\"]\n  6 [label = \"Visualization in Cytoscape\"]\n  # edge statements\n  1 ->  2\n  2 -> 3\n  3 -> 4\n  3 -> 5\n  4 -> 6\n  5 -> 6\n  }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -651,6 +656,8 @@ Building an R package
 <img data-src="images/rOpenSci_icon_lettering_color.png" style="width:50.0%" class="r-stretch"></section>
 <section id="package" class="slide level2">
 <h2>Package</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
 <ul>
 <li>Creating functions
 <ul>
@@ -670,9 +677,15 @@ Building an R package
 <li>Github Actions</li>
 </ul></li>
 </ul>
+</div><div class="column" style="width:20%;">
+<p><img data-src="images/dendroNetwork_hexsticker.png"></p>
+</div>
+</div>
 </section>
 <section id="package-review" class="slide level2">
 <h2>Package: Review</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
 <ul>
 <li>Github issue: <a href="https://github.com/ropensci/software-review/" class="uri">https://github.com/ropensci/software-review/</a></li>
 <li>Developers test your package</li>
@@ -681,9 +694,15 @@ Building an R package
 <li>Improvement of documentation</li>
 <li>Open peer review</li>
 </ul>
+</div><div class="column" style="width:20%;">
+<p><img data-src="images/dendroNetwork_hexsticker.png"></p>
+</div>
+</div>
 </section>
 <section id="package-dissemination" class="slide level2">
 <h2>Package: Dissemination</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
 <ul>
 <li>Source: <a href="https://github.com/ropensci/dendroNetwork/" class="uri">https://github.com/ropensci/dendroNetwork/</a></li>
 <li>Documentation: <a href="https://docs.ropensci.org/dendroNetwork/" class="uri">https://docs.ropensci.org/dendroNetwork/</a></li>
@@ -693,6 +712,10 @@ Building an R package
 <li>Present at CAA2025 in Athens</li>
 <li>Write paper (still to publish)</li>
 </ul>
+</div><div class="column" style="width:20%;">
+<p><img data-src="images/dendroNetwork_hexsticker.png"></p>
+</div>
+</div>
 </section>
 <section id="conclusions-recommendations" class="slide level2">
 <h2>Conclusions + recommendations</h2>
@@ -702,7 +725,8 @@ Building an R package
 <li>Dataset with temporal and spatial variance: sparse big data</li>
 <li>Network deals with uneven distribution</li>
 <li>Provenance estimation transparent and reproducible</li>
-<li>Local provenance of wood normal</li>
+<li>Normal: local provenance of wood (oak)</li>
+<li>Special: long distance transport of wood</li>
 </ul>
 <h3 id="creating-a-package-is-a-challenge-but-fun">Creating a package is a challenge, but fun!</h3>
 <ul>
