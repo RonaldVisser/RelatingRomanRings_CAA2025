@@ -1,6 +1,8 @@
 
 # Relating Roman Rings: an open and reproducible approach to understanding provenance patterns of wood using networks
 
+[![DOI](https://zenodo.org/badge/974772798.svg)](https://doi.org/10.5281/zenodo.15342407)
+
 Author: Ronald Visser
 
 Presentation presented at the CAA 2025 in Athens
